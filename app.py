@@ -66,5 +66,7 @@ sums = branchSum(root)
 
 print(sums)
 
-
-    
+############################
+##Time complexity = O(n)
+##Space Complexity = O(n)
+############################
