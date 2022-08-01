@@ -1,5 +1,8 @@
-class Node:
+#######################################
+##Inserting nodes in binary search tree
+#######################################
 
+class Node:
     def __init__(self, data):
 
         self.left = None
@@ -7,7 +10,7 @@ class Node:
         self.data = data
 
     def insert(self, data):
-# Compare the new value with the parent node
+    # Compare the new value with the parent node
         if self.data:
             if data < self.data:
                 if self.left is None:
@@ -39,7 +42,9 @@ root.insert(10)
 root.insert(19)
 root.insert(22)
 
-
+########################################
+##Calculating branch sums in binary tree
+########################################
 
 
 def branchSum(root):
